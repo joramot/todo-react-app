@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { FaPlusCircle } from "react-icons/fa"
 import { IconContext } from "react-icons"
+
+// eslint-disable-next-line react/prop-types
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState('');
   const [message, setMessage] = useState('');

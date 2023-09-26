@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState, useRef } from 'react';
 import { FaTrash } from "react-icons/fa";
 import { AiFillEdit } from "react-icons/ai";
